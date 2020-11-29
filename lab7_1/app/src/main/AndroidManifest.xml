@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab7_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Animals"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CatActivity"
+            android:label="@string/CatActivity" />
+        <activity android:name=".DogActivity"
+            android:label="@string/DogActivity"/>
+        <activity android:name=".CatRace"
+            android:label="@string/CatRace"/>
+        <activity android:name=".DogRace"
+            android:label="@string/DogRace"/>
+        <activity
+            android:name=".Info"
+            android:label="@string/Info">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animals"/>
+        </activity>
+
+        <activity android:name=".Animals">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

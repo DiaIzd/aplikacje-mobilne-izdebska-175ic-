@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/westie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Westie on Holidays"
+        android:textSize = "30sp"
+        android:gravity="left"
+        android:layout_gravity="top|left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:gravity="right"
+        android:padding="16dp">
+
+        <RadioGroup
+            android:id="@+id/radio-group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio-cats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cats"
+                android:onClick="Cats"
+                android:textSize="25sp"/>
+<!--                android:onClick="onRadioButtonClicked"-->
+
+
+            <RadioButton
+                android:id="@+id/radio-puppy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/puppy"
+                android:onClick="Puppy"
+                android:textSize="25sp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="449dp"
+        android:layout_height="142dp"
+        android:layout_gravity="bottom|center"
+
+
+        android:gravity="center"
+        android:onClick="HauClickMe"
+        android:padding="16dp"
+        android:text="CLick me! Hau!" />
+<!--        android:gravity="center"-->
+
+<!--        android:padding="16dp"-->
+<!--        android:text="CLick me! Hau!" />-->
+</FrameLayout>

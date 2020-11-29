@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wic</string>
+
+
+
+    <string name="button_response">Już czas!</string>
+    <string name="button_text">Jaki jest sekret komedii?</string>
+
+</resources>

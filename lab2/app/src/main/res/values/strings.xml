@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab2 - Aktywność 1</string>
+    <string name="message"></string>
+    <string name="button">Wyślij to!</string>
+    <string name="niespodzianka">Niespodzianka</string>
+    <string name="home">Start!</string>
+</resources>

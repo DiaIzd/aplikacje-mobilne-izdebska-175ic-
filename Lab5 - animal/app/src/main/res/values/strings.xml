@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FragmentAnimals</string>
+    <string name="details_button">Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="dogs_button">Dogs</string>
+    <string name="cats_button">Cats</string>
+    <string name="horse_button">Horse</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+</resources>

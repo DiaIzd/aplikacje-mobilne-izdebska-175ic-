@@ -1,0 +1,19 @@
+<resources>
+    <string name="Animals">Zwierzęta</string>
+    <string name="CatActivity">Opis Kotów</string>
+    <string name="HorseActivity">Opis Koni</string>
+    <string name="DogActivity">Opis Psów</string>
+    <string name="DogRace">Rasy psów</string>
+    <string name="HorseRace">Rasy koni</string>
+    <string name="CatRace">Rasy kotów</string>
+    <string name="Info">O aplikacji</string>
+    <string name="animals_logo">Logo Zwierząt</string>
+    <string name="animals_info">Jest to aplikacja o zwierzętach</string>
+    <string name="favorite">Ulubione Zwierzę</string>
+    <string name="favorites">Twoje ulubione zwierzęta</string>
+    <string-array name="options">
+        <item>Psy</item>
+        <item>Koty</item>
+        <item>Konie</item>
+    </string-array>
+</resources>

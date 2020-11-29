@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab5modify">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".warstwa.TempActivity"></activity>
+        <activity android:name=".warstwa1.CatListActivity" />
+        <activity android:name=".warstwa1.DogListActivity" />
+        <activity android:name=".warstwa1.HorseListActivity" />
+        <activity android:name=".warstwa2.CatDetail2Activity" />
+        <activity android:name=".warstwa2.HorseDetail2Activity" />
+        <activity android:name=".warstwa2.DogDetail2Activity" />
+        <activity android:name=".warstwa.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
